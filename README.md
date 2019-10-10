@@ -1,1 +1,3 @@
 # Blockchain
+
+The goal of this is to build a basic blockchain with a proof-of-work mechanism and Merkle tree-based data storage. Two Python modules have been used. The first one is DataSimulator, which simulates an I/O interface. Each time the function getNewData() is called, a set of (publicKey, signature, string) tuple is returned. (The actual data can be accessed by reading a JSON file, if you don't want to use Python) Moreover, Elliptic Curve Cryptography has been used to verify the data, which is put on the blockchain. Also the hash of every block is computed through SHA256 hash algorithm.
